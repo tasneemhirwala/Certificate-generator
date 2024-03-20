@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#certificate {
+  display: none;
+}
+#certificate-generator .mt-5 {
+  color: rgb(233, 233, 33);
+  font-family: "Alegreya Sans", sans-serif;
+}
+#certificate-generator .mb-4 {
+  font-size: 30px;
+  color: rgb(220, 125, 9);
+  font-family: "Playfair", sans-serif;
+}
+.form-group {
+  background: wheat;
+  margin: 21px auto; /* Centering horizontally */
+  width: 70%; /* Adjusting width */
+  padding: 10px; /* Adding padding */
+}
+#certificate.certificate-hidden {
+  display: none;
+}
+
+#certificate.certificate-show {
+  display: block;
+}
+
+#certificate.certificate-show h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#certificate.certificate-show p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#certificate.certificate-show h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#certificate.certificate-show span {
+  font-weight: bold;
+  font-style: italic;
+}
